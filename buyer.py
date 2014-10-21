@@ -1,5 +1,5 @@
 class Buyer:
-	def __init__(self)
+	def __init__(self):
 		self._name = None
 		self._address = None
 		self._age = None
