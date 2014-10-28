@@ -1,5 +1,4 @@
 from Buyer import Buyer
-from Item import Item
 
 class Seller:
     def __init__(self,name=None,address=None,age=None):
