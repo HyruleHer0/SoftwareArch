@@ -17,10 +17,10 @@ class Transaction:
         def setSeller(self, seller):
                 self._seller = seller
                 
-        def submitBid(self, buyer, bid)
-                if(bid > self._highbid):
+        def submitBid(self, buyer, bid):
+                if(bid > self._highBid):
                         self._highBidder = buyer
                         self._highBid = bid
                 
-        def setHighBid(self, bid)
+        def setHighBid(self, bid):
                 self._highBid = bid
