@@ -24,3 +24,7 @@ class Transaction:
                 
         def setHighBid(self, bid):
                 self._highBid = bid
+
+        def getHighBid(self):
+                return self._highBid
+                
