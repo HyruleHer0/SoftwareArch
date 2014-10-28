@@ -1,7 +1,7 @@
 from Seller import Seller
 from Buyer import Buyer
 from Item import Item
-from transacttion import Transaction
+from transaction import Transaction
 
 def main(self):
     x = input("What would you like to do? (b)id or (s)ell")
