@@ -1,8 +1,10 @@
+from Seller import Seller
 class Item:
-    def __init__(self,name,start,desc=None):
+    def __init__(self,name,start,seller,desc=None):
         self._name = name
         self._start = start
         self._desc = desc
+        self._seller = seller
 
     def getname (self):
         return self._name
@@ -22,3 +24,8 @@ class Item:
     def desc (self, desc):
         self._desc = desc
         
+    def seller (self, seller):
+        self._seller = seller
+    
+    def getseller (self):
+        return self._seller
