@@ -27,4 +27,6 @@ class Transaction:
 
         def getHighBid(self):
                 return self._highBid
-                
+        
+        def getHighBidder(self):
+                return self._highBidder
