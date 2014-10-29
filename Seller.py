@@ -1,4 +1,4 @@
-from Buyer import Buyer
+from buyer import Buyer
 
 class Seller:
     def __init__(self,name=None,address=None,age=None):
