@@ -1,5 +1,5 @@
 from Seller import Seller
-from Buyer import Buyer
+from buyer import Buyer
 from Item import Item
 from transaction import Transaction
 
